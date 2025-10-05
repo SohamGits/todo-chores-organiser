@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Chores Organiser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Todo Chores Organiser</h1>
+    <div class="sections">
+      <div class="section work-section">
+        <h2>Work</h2>
+        <div class="todo-input">
+          <input type="text" id="work-task" placeholder="Add a work task...">
+          <button class="add-btn" id="work-add">+</button>
+        </div>
+        <ul class="todo-list" id="work-list"></ul>
+      </div>
+      <div class="section home-section">
+        <h2>Home</h2>
+        <div class="todo-input">
+          <input type="text" id="home-task" placeholder="Add a home task...">
+          <button class="add-btn" id="home-add">+</button>
+        </div>
+        <ul class="todo-list" id="home-list"></ul>
+      </div>
+      <div class="section misc-section">
+        <h2>Miscellaneous</h2>
+        <div class="todo-input">
+          <input type="text" id="misc-task" placeholder="Add a misc task...">
+          <button class="add-btn" id="misc-add">+</button>
+        </div>
+        <ul class="todo-list" id="misc-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
